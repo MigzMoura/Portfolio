@@ -20,3 +20,19 @@ body {
     justify-content: space-around;
     padding: 20px;
 }
+
+.cabeçalho-img {
+    height: 72px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Poppins', sans-serif;
+    color: #EDEDED;
+    font-weight: 400;
+    font-size: 15px;
+}
