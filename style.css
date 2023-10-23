@@ -18,7 +18,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 5px;
 }
 
 .cabeçalho-img {
@@ -35,4 +35,14 @@ body {
     color: #EDEDED;
     font-weight: 400;
     font-size: 15px;
+}
+
+.conteudo {
+    border-top: 2px solid #1E1E1E;;
+}
+
+.conteudo-principal {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
 }
