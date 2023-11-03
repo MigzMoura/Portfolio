@@ -51,6 +51,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-around;
+            padding: 40px;
     }
 
     .conteudo-secundario {
@@ -107,18 +108,28 @@ body {
 
 .projects {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: center;  */
     padding-top: 40px;
     padding-bottom: 100px;   
     border-top: 2px solid #1E1E1E;
 }
 
     .projects-texto {
+            display: flex;
+            
             font-family: 'Poppins', sans-serif;
             color: #EDEDED;
             font-weight: 400;
-            font-size: 20px;
+            font-size: 30px;
+
+    }
+
+    .projects-img {
+            display: flex;
+            padding: 60px;
+            align-items: center;
     }
 
 .conteudo-rodape {
@@ -128,7 +139,3 @@ body {
     padding: 40px;   
     border-top: 2px solid #1E1E1E;
 }
-
-    .conteudo-rodape-redes {
-        
-    }
