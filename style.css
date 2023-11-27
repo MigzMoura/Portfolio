@@ -133,4 +133,12 @@ body {
     align-items: center;
     padding: 40px;   
     border-top: 2px solid #1E1E1E;
+    
 }
+
+        .conteudo-rodape-redes {
+                justify-content: space-around;
+                font-family: 'Poppins', sans-serif;
+                color: #EDEDED;
+                text-decoration: none;
+        }
