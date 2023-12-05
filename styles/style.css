@@ -19,12 +19,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 25px;
 }
 
-    .cabeçalho-img {
-            height: 72px;
-    }
+    /*.cabeçalho-img {
+             height: 72px; 
+    }*/
 
     .cabeçalho-menu {
             display: flex;
@@ -53,13 +53,15 @@ body {
             align-items: center;
             justify-content: space-around;
             padding: 40px;
-    }
-
-    .conteudo-secundario {
-            display: flex;
             flex-direction: column;
             flex-wrap: column wrap;
     }
+
+    /*.conteudo-secundario {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: column wrap;
+    }*/
 
     .conteudo-secundario-texto {
             font-family: 'Poppins', sans-serif;
