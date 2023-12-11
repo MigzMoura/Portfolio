@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@300&display=swap');
 
+:root {
+    --cor-primaria: #0B0B0B;
+    --cor-secundaria: #EDEDED;
+    --cor-terciaria: #1E1E1E;
+
+    --fonte-primaria: 'Poppins', sans-serif;
+}
 
 * {
     margin: 0;
@@ -11,7 +18,7 @@
 body {
     font-size: 100%;
     box-sizing: border-box;
-    background-color: #0B0B0B;
+    background-color: var(--cor-primaria);
 }
 
 .cabeçalho {
@@ -32,14 +39,14 @@ body {
     }
 
     .cabeçalho-menu-item {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 15px;
     }
 
 .conteudo {
-    border-top: 2px solid #1E1E1E;
+    border-top: 2px solid var(--cor-terciaria);
 }
 
     .conteudo-principal {
@@ -64,16 +71,16 @@ body {
     }*/
 
     .conteudo-secundario-texto {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 20px;
             flex-wrap: wrap;
     }
 
     .conteudo-secundario-titulo {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 30px;
     }
@@ -89,22 +96,22 @@ body {
     }
 
     .conteudo-terciario-frontend {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 20px;
     }
 
     .conteudo-terciario-concept {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 20px;
     }
 
     .conteudo-terciario-illustrator {
-            font-family: 'Poppins', sans-serif;
-            color: #EDEDED;
+            font-family:  var(--fonte-primaria);
+            color: var(--cor-secundaria);
             font-weight: 400;
             font-size: 20px;
     }
@@ -114,12 +121,12 @@ body {
         justify-content: space-around;
         padding-top: 40px;
         padding-bottom: 100px;   
-        border-top: 2px solid #1E1E1E;
+        border-top: 2px solid var(--cor-terciaria);
 }
         .projects-texto {
                 display: flex;
-                font-family: 'Poppins', sans-serif;
-                color: #EDEDED;
+                font-family:  var(--fonte-primaria);
+                color: var(--cor-secundaria);
                 font-weight: 400;
                 font-size: 30px;
         }
@@ -134,13 +141,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;   
-    border-top: 2px solid #1E1E1E;
+    border-top: 2px solid var(--cor-terciaria);
     
 }
 
         .conteudo-rodape-redes {
                 justify-content: space-around;
-                font-family: 'Poppins', sans-serif;
-                color: #EDEDED;
+                font-family: var(--fonte-primaria);
+                color: var(--cor-secundaria);
                 text-decoration: none;
         }
