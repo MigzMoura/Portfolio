@@ -17,137 +17,68 @@
 
 body {
     font-size: 100%;
-    box-sizing: border-box;
     background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
-.cabeçalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 25px;
+html {
+     font-family: Poppins, sans-serif;
+     font-weight: 500;
 }
 
-    /*.cabeçalho-img {
-             height: 72px; 
-    }*/
-
-    .cabeçalho-menu {
-            display: flex;
-            gap: 32px;
-    }
-
-    .cabeçalho-menu-item {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 15px;
-    }
-
-.conteudo {
-    border-top: 2px solid var(--cor-terciaria);
+a {
+    text-decoration: none;
 }
 
-    .conteudo-principal {
-            display: flex;
-            padding: 60px;
-            justify-content: center;
-    }
-
-    .conteudo-escrito {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding: 40px;
-            flex-direction: column;
-            flex-wrap: column wrap;
-    }
-
-    /*.conteudo-secundario {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: column wrap;
-    }*/
-
-    .conteudo-secundario-texto {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 20px;
-            flex-wrap: wrap;
-    }
-
-    .conteudo-secundario-titulo {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 30px;
-    }
-
-    .conteudo-terciario {
-            display: flex;
-            flex-direction: column;
-            align-items: end;
-            justify-content: flex-end;
-            gap: 15px;
-            margin-top: 20px;
-            margin-bottom: 40px;
-    }
-
-    .conteudo-terciario-frontend {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 20px;
-    }
-
-    .conteudo-terciario-concept {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 20px;
-    }
-
-    .conteudo-terciario-illustrator {
-            font-family:  var(--fonte-primaria);
-            color: var(--cor-secundaria);
-            font-weight: 400;
-            font-size: 20px;
-    }
-
-.projects {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 40px;
-        padding-bottom: 100px;   
-        border-top: 2px solid var(--cor-terciaria);
-}
-        .projects-texto {
+        .cabeçalho {
                 display: flex;
-                font-family:  var(--fonte-primaria);
-                color: var(--cor-secundaria);
-                font-weight: 400;
-                font-size: 30px;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 30px;
+        }
+        
+                .cabeçalho-menu {
+                        display: flex;
+                        gap: 32px;
+                        color: var(--cor-secundaria);
+                        font-family: var(--fonte-primaria);
+                }
+
+        .conteudo {
+                border-top: 2px solid var(--cor-terciaria);
+
+        }
+                .conteudo-img{
+                        display: flex;
+                        justify-content: center;
+                        padding: 60px;
+                }
+
+        .projects{
+                display: flex;
+                justify-content: space-around;
+                padding-top: 40px;
+                padding-bottom: 100px;   
+                border-top: 2px solid var(--cor-terciaria); 
         }
 
-.projects-img-class {
-        display: flex;
-        justify-content: space-around;
-}
+                .projects-texto{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 25px;
+                        font-family: var(--fonte-primaria);
+                }
 
-.conteudo-rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;   
-    border-top: 2px solid var(--cor-terciaria);
-    
-}
+                .projects-img{
+                        height: 600px;
+                }
 
-        .conteudo-rodape-redes {
-                justify-content: space-around;
-                font-family: var(--fonte-primaria);
-                color: var(--cor-secundaria);
-                text-decoration: none;
+        .conteudo-rodape{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px;   
+                gap: 32px;
+                font-weight: 400px;
+                border-top: 2px solid var(--cor-terciaria);
         }
